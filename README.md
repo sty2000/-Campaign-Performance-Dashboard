@@ -75,6 +75,31 @@ The application is designed to be fully responsive, ensuring a seamless user exp
 
 Bootstrap is integrated into the project to leverage its robust CSS framework for styling and layout. Additionally, Bootstrap's grid system is utilized to create flexible and responsive layouts.
 
+## Development History
+
+### Agile Methodology
+
+The development process followed an incremental and iterative approach. Each iteration added a specific functionality, tested it, and then proceeded to the next. This approach allowed for continuous improvement and quick adaptation to changing requirements.
+
+### Iterations 
+
+1. **First Iteration**:
+   - Implemented a non-interactive dropdown menu skeleton.
+   
+2. **Second Iteration**:
+   - Added click selection functionality.
+   - Integrated JSON data to populate the dropdown.
+
+3. **Third Iteration**:
+   - Added responsiveness to the application.
+   - Applied Bootstrap for styling and improved UI.
+
+4. **Fourth Iteration**:
+   - Implemented a return button to navigate back.
+
+5. **Fifth Iteration**:
+   - Implemented dark mode functionality.
+
 ## References
 - [Dropdown Documentation](https://terryz.github.io/docs-vue3/dropdown/)
 - [Vue 3 and TypeScript](https://blog.csdn.net/weixin_44510200/article/details/136896422)
