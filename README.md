@@ -10,14 +10,18 @@ This project is a Campaign Performance Dashboard built using Vue 3 and TypeScrip
 - Toggle dark mode for better user experience.
 
 ## Setup and Installation
+There are two ways you can access this page.
+### 1. GitHub Pages
+Please access [this link](https://sty2000.github.io/Campaign-Performance-Dashboard/) to view the live application. The webpage is already deployed using GitHub Pages.
 
+### 2. Build from source code
 Follow these steps to set up and run the application:
 
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/your-repository/campaign-dashboard.git
-    cd campaign-dashboard
+     git clone https://github.com/sty2000/Campaign-Performance-Dashboard.git
+    cd Campaign-Performance-Dashboard
     ```
 
 2. **Install dependencies:**
@@ -40,6 +44,7 @@ Follow these steps to set up and run the application:
 
 1. **Viewing Campaigns:**
    - Use the dropdown to select a campaign and view its details.
+   - Use the return button to go back to main menu.
    
 2. **Toggling Dark Mode:**
    - Use the toggle button to switch between light and dark modes.
@@ -53,17 +58,21 @@ Follow these steps to set up and run the application:
 - **useCampaignData.ts:** This composable function handles fetching and managing campaign data.
 
 ### State Management
+State management in this application is handled using Vue 3's Composition API. The state and logic are encapsulated within a custom composable function `useCampaignData`. This approach allows us to define reactive state variables and methods to manage the application's state in a modular and reusable manner. The key state variables managed include:
 
-- Used Vue's `ref` for reactive state management within components and composables.
+- `campaigns`: Stores the list of campaigns.
+- `selectedVacancy`: Stores the currently selected vacancy.
+- `selectedCampaign`: Stores the currently selected campaign details.
+- `isDarkMode`: Manages the dark mode state of the application.
 
-### Dark Mode
+The composable function provides methods to update and manage these states, such as displaying selected campaign data, resetting selections, toggling dark mode, and fetching campaign data on component mount.
 
-- Implemented a dark mode toggle that adds/removes a `dark-mode` class on the root element.
+### Responsiveness
 
-## Navigation
+The application is designed to be fully responsive, ensuring a seamless user experience across various devices and screen sizes. You can access [this link](https://responsivedesignchecker.com/checker.php?url=https%3A%2F%2Fsty2000.github.io%2FCampaign-Performance-Dashboard%2F&width=1400&height=700) to test its responsiveness.
 
-The application is straightforward to navigate:
+### Bootstrap Integration
 
-- **Dropdown:** Select a campaign to view its details.
-- **Details View:** Displays metrics and allows for switching between different campaigns.
-- **Dark Mode Toggle:** Switch between light and dark themes for better visibility.
+Bootstrap is integrated into the project to leverage its robust CSS framework for styling and layout. Additionally, Bootstrap's grid system is utilized to create flexible and responsive layouts.
+
+
