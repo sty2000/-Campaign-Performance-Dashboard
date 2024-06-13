@@ -71,7 +71,7 @@ The composable function provides methods to update and manage these states, such
 
 The application is designed to be fully responsive, ensuring a seamless user experience across various devices and screen sizes. You can access [this link](https://responsivedesignchecker.com/checker.php?url=https%3A%2F%2Fsty2000.github.io%2FCampaign-Performance-Dashboard%2F&width=1400&height=700) to test its responsiveness.
 
-### Bootstrap Integration
+### Bootstrap
 
 Bootstrap is integrated into the project to leverage its robust CSS framework for styling and layout. Additionally, Bootstrap's grid system is utilized to create flexible and responsive layouts.
 
