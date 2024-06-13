@@ -75,4 +75,13 @@ The application is designed to be fully responsive, ensuring a seamless user exp
 
 Bootstrap is integrated into the project to leverage its robust CSS framework for styling and layout. Additionally, Bootstrap's grid system is utilized to create flexible and responsive layouts.
 
+## References
+- [Dropdown Documentation](https://terryz.github.io/docs-vue3/dropdown/)
+- [Vue 3 and TypeScript](https://blog.csdn.net/weixin_44510200/article/details/136896422)
+- [An Introduction to Vue 3 and TypeScript](https://dev.to/tqbit/an-introduction-to-vue-3-and-typescript-getting-started-32ne)
+- [Best Solution to Build a Vue 3 TS Vite Project](https://stackoverflow.com/questions/70243658/what-is-the-best-solution-to-build-a-vue3-ts-vite-project)
+- [Create Your Own Dark Mode Toggle Component with Vue.js](https://dev.to/tqbit/create-your-own-dark-mode-toggle-component-with-vue-js-1284)
+- [How to Implement Dark/Light Mode in Vue 3](https://stackoverflow.com/questions/76579547/how-to-implement-dark-light-mode-in-vue3)
+- [GitHub Pages](https://pages.github.com/)
+
 
